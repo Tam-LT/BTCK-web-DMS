@@ -1,0 +1,48 @@
+
+.khoi-slide {
+    width:  100%;
+    position:  relative;
+}
+
+img {
+    width:  100%;
+}
+
+.cac-slide {
+    width:  100%;
+    overflow:  hidden;
+    
+}
+.slide {
+    position:  absolute;
+    top: 0px;
+    left: 0px;
+    opacity:  0;
+    visibility:  hidden;
+}
+.slide.active{
+    opacity:  1;
+    visibility:  visible;	
+}
+.bien-mat-ben-trai{
+    animation: bien-mat-ben-trai 0s forwards;
+}
+@-webkit-keyframes bien-mat-ben-trai{
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+.di-vao-ben-phai{
+    animation: di-vao-ben-phai 0s forwards;
+}
+@-webkit-keyframes di-vao-ben-phai{
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
